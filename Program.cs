@@ -246,7 +246,7 @@ namespace OneDriveWithMSGraph
                     Console.WriteLine();
                 }
             }
-           
+
             if (worksheetContents != null)
             {
                 int numRows = worksheetContents.GetLength(0);
@@ -262,7 +262,10 @@ namespace OneDriveWithMSGraph
                     Console.WriteLine();
                 }
             }
-            
+            else
+            {
+                Console.WriteLine("No single worksheet contents provided.");
+            }
         }
     }
 }

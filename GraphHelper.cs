@@ -167,7 +167,6 @@ namespace OneDriveWithMSGraph
             }
         }
 
-
         // lấy nội dung theo cell
         public static async Task<string> GetCellValue(string fileId, string worksheetId, string cellAddress)
         {
